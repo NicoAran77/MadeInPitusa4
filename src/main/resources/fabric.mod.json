@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "monosutils",
+	"version": "${version}",
+	"name": "Monos Utils",
+	"description": "Utilidades de servidor para Los Monos: zonas, combate, teletransporte externo, e indicadores sociales (prank y ediciones de Made In Pitusa).",
+	"authors": [
+		"Los Monos"
+	],
+	"contact": {},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.losmonos.monosutils.MonosUtils"
+		]
+	},
+	"mixins": [
+		"monosutils.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

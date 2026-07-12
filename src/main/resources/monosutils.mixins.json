@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.losmonos.monosutils.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"PlayerDisplayNameMixin",
+		"ServerPlayerTabMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
